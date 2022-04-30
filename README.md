@@ -3,7 +3,7 @@
 ## Usage
 on bash save csv file:
 ```bash
->> python main.py --saving_path='goodinfo.csv'
+python main.py --saving_path='goodinfo.csv'
 ```
 on python script get pandas.Dataframe:
 ```python
