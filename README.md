@@ -1,11 +1,11 @@
 # goodinfo_crawler
 
 ## Usage
-in bash:
+on bash save csv file:
 ```bash
 >> python main.py --saving_path='goodinfo.csv'
 ```
-in python file:
+on python script get pandas.Dataframe:
 ```python
 df= get_col(get_df())
 ```
