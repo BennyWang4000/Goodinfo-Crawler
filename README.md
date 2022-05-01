@@ -7,7 +7,8 @@ python main.py --saving_path='goodinfo.csv'
 ```
 on python script get pandas.Dataframe:
 ```python
-df= get_col(get_df(get_param()))
+params, headers = get_params()
+df= get_cols(get_df(params=params, headers=headers, url=URL))
 ```
 ## Result
 排名|代號|名稱|股東權益(億)|每股淨值(元)
